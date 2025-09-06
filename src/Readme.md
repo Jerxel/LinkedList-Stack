@@ -2,7 +2,7 @@
 
 # Jerxel Cabillon
 - C2B
-- GT: Linked List
+- GT: Linked List & Stack
 
 # Output
 ![img.png](../image/img.png)
