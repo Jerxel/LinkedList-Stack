@@ -24,6 +24,19 @@ public class LinkedList {
         System.out.println("null");
     }
 
+    public int removeFirst() {
+        // Check if the list is empty
+        if (head == null) {
+            throw new RuntimeException("Cannot remove from an empty list.");
+        }
+
+        int data = this.head.data;
+
+        this.head = this.head.next;
+
+        return data;
+    }
+
     // Main method to test
     public static void main(String[] args) {
         LinkedList myList = new LinkedList();

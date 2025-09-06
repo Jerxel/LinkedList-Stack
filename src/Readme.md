@@ -4,5 +4,6 @@
 - C2B
 - GT: Linked List
 
-Output
+# Output
 ![img.png](../image/img.png)
+![img.png](../image/img2.png)
